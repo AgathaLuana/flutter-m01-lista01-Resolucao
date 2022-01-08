@@ -13,7 +13,32 @@ Entrada:
 Saída:
   "Buscar/Ler"*/
 void main(){
-  
+  String opcao;
+  opcao = 'R';
+  switch (opcao){
+    case 'c':
+    case 'C':
+    print('Cadastrar/Inserir');
+    break;
+
+    case 'r':
+    case 'R':
+    print('Buscar/Ler');
+    break;
+
+    case 'u':
+    case 'U':
+    print('Editar/Atualizar');
+    break;
+
+    case 'd':
+    case 'D':
+    print('Excluir/Apagar');
+    break;
+
+    default:
+    print('Informe uma das opções do Menu');
+  }
 
 
 
